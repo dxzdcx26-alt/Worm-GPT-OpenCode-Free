@@ -26,7 +26,7 @@ function getKeyFilePaths() {
       candidates.add(path.join(exeDir, "api.txt"));
     } catch (err) {}
   }
-  return Array.from(candidatesates);
+  return Array.from(candidates);
 }
 
 function removeKeyFiles() {
